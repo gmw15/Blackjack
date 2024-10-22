@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.blackjack-game {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dealer, .player {
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+#dealer-cards, #player-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#dealer-cards div, #player-cards div {
+    width: 60px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.controls button:hover {
+    background-color: #ec971f;
+}
+
+#game-message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* Add styles for card images */
+/* Add styles for card images */
+/* Add styles for card images */
+.card-image {
+    width: 60px;
+    height: 90px;
+    margin: 5px;
+}
+
+.card-back {
+    width: 60px;
+    height: 90px;
+    background-image: url('images/cards/back.svg');  /* You can use an SVG for the card back */
+    background-size: cover;
+    margin: 5px;
+}
