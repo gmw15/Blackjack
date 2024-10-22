@@ -191,6 +191,7 @@ function playerStand() {
     endGame();
 }
 
+
 function resetGame() {
     dealerHand = [];
     playerHand = [];
